@@ -13,6 +13,6 @@ def events(gun):
                 gun.mleft = True
         elif event.type == pygame.KEYUP:
             if event.key == pygame.K_d:
-                gun.mright == False
+                gun.mright = False
             elif event.key == pygame.K_a:
-                gun.mleft == False
+                gun.mleft = False
